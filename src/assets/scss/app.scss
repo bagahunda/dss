@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+@import "settings";
+@import "foundation-emails";
+
+@import "template/template";
+
+.header .columns {
+  padding-top: 0;
+}
+
+.header--leader img {
+  width: 100%;
+  max-width: none;
+}
+
+.gray {
+  background-color: #e7e7e7;
+}
+
+h1 {
+  font-weight: 700;
+  color: #003366;
+}
+
+h2 {
+  color: $primary-color;
+}
+
+h6 {
+  color: #b2b2b2;
+}
+
+.header-text {
+  font-size: 20px;
+
+  span {
+    color: $primary-color;
+    font-weight: 700;
+  }
+}
+
+h4 {
+  span {
+    color: $primary-color;
+    font-weight: 700;
+  }
+}
+
+a {
+  color: $primary-color;
+  font-weight: 700;
+}
+
+.info {
+  height: 117px;
+  border: 1px solid #cbcbcb;
+  font-size: 36px;
+  line-height: 117px;
+  font-weight: 700;
+  color: $primary-color;
+}
+
+.info-small {
+  height: auto;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: $primary-color;
+
+  &--small {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+}
+
+.footer {
+  text-transform: uppercase;
+
+  &__first-line {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  &__second-line {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+  }
+
+  &__social {
+    text-align: center;
+    text-transform: none;
+    color: #00ccff;
+  }
+}
+
+.text-center img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price {
+  img {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.stats {
+  text-align: center;
+
+  &__number {
+    display: block;
+    font-size: 60px;
+    color: $primary-color;
+  }
+
+  &__text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #828282;
+  }
+}
+
+.stats-first {
+  border-right: 1px solid #e4e4e4;
+}
+
+.info-bg {
+  color: #ffffff;
+  font-size: 14px;
+
+  span {
+    font-size: 60px;
+  }
+}
+
+.profit {
+  padding: 0 30px;
+  font-size: 20px;
+
+  &__info {
+    padding: 20px;
+    background-color: #fff;
+  }
+}
+
+// .footer__bg {
+//   background-image: url("../assets/img/footer.jpg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
