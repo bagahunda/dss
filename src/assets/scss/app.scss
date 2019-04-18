@@ -148,9 +148,16 @@ a {
   }
 }
 
-// .footer__bg {
-//   background-image: url("../assets/img/footer.jpg");
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center;
-// }
+.footer__bg {
+  background-image: url("./assets/img/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.small-bg {
+  background-image: url("./assets/img/small-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
