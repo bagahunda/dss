@@ -161,3 +161,25 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.code {
+  border: 1px solid #C2C2C2;
+
+  th {
+    height: 117px;
+    vertical-align: middle;
+    padding-bottom: 0;
+    font-size: 30px;
+    color: #003366;
+  }
+
+  &__text {
+    padding-left: 30px;
+  }
+
+  &__right {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    background-color: #003366;
+  }
+}
