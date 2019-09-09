@@ -183,3 +183,26 @@ a {
     background-color: #003366;
   }
 }
+
+.order-info {
+  padding: 0 20px;
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+
+  &__inner {
+    padding: 30px 0;
+    border-bottom: 1px solid #D3D3D3;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  b {
+    font-size: 20px;
+  }
+}
+
+.order-info + .order-info {
+  margin-top: 20px;
+}
