@@ -206,3 +206,47 @@ a {
 .order-info + .order-info {
   margin-top: 20px;
 }
+
+table.avicenna {
+  background-image: url('../assets/img/avicenna_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  p {
+    font-size: 20px;
+  }
+}
+
+.header--avicenna {
+  background: transparent;
+}
+
+.avicenna__row h1,
+.avicenna__row b {
+  color: #e23c38;
+}
+
+.footer-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.footer--avicenna {
+  .menu {
+    width: auto !important;
+  }
+}
+
+// .text-right th {
+//   text-align: right;
+
+//   img {
+//     display: inline-block;
+//   }
+// }
