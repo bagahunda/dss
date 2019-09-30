@@ -243,6 +243,60 @@ table.avicenna {
   }
 }
 
+.recomendations {
+  padding: 40px 0;
+  border: 1px solid #D2D2D2;
+  font-size: 20px;
+
+  &__block {
+    padding: 0 30px;
+  }
+
+  &__title {
+    font-size: 14px !important;
+    text-transform: uppercase;
+    color: #444444;
+  }
+
+  &__separator {
+    padding: 0 30px;
+  }
+
+  &__button {
+    a {
+      display: block;
+      text-align: center;
+
+      img {
+        display: inline;
+      }
+    }
+  }
+
+  .problem {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #e9a606;
+  }
+
+  .doctor {
+    span {
+      font-size: 16px;
+    }
+  }
+
+  table.button table td {
+    background-color: #FEF4F4;
+    color: #e23c38;
+    text-align: center;
+  }
+
+  table.button table td a {
+    color: #e23c38;
+    border: 0 solid #D2D2D2;
+  }
+}
+
 // .text-right th {
 //   text-align: right;
 
